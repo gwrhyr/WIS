@@ -1,0 +1,5 @@
+#WindowsPowershell内に必須フォルダ追加
+New-Item (Join-Path $HOME Documents\WindowsPowershell\EGO_List\)
+New-Item (Join-Path $HOME Documents\WindowsPowershell\EGO_Log\)
+New-Item (Join-Path $HOME Documents\WindowsPowershell\Scripts\EGO_Autoload\)
+New-Item (Join-Path $HOME Documents\WindowsPowershell\Scripts\EGO_Scripts\)
